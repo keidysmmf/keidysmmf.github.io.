@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keidys Manzanilla | Portafolio</title>
+    
+    <!-- SEO y Open Graph -->
+    <meta name="description" content="Portafolio de Keidys Manzanilla, Ingeniera de Sistemas y Analista de Desarrollo especializada en modernización de sistemas y bases de datos.">
+    <meta property="og:title" content="Keidys Manzanilla | Portafolio">
+    <meta property="og:description" content="Transformo problemas complejos en código limpio y escalable.">
+    <meta property="og:image" content="./Logo.png">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="./Logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Librería de Iconos (Phosphor Icons) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">KM.</div>
+        <!-- Menú Hamburguesa para Móviles -->
+        <button class="hamburger" aria-label="Abrir menú de navegación">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Hola, soy <strong>Keidys Manzanilla</strong></h1>
+            <h2>Ingeniera de Sistemas y Analista de Desarrollo.</h2>
+            <p>Especializada en la modernización de sistemas, optimización de bases de datos y desarrollo de soluciones eficientes. Transformo problemas complejos en código limpio y escalable.</p>
+            <div class="hero-buttons">
+                <a href="https://canva.link/shzaf9gbmmiwdca" class="btn btn-primary" download>
+                    <i class="ph ph-download-simple"></i> Descargar CV
+                </a>
+                <a href="#proyectos" class="btn btn-secondary">
+                    <i class="ph ph-kanban"></i> Ver Proyectos
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="sobre-mi" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <p>Como Analista de Desarrollo e Ingeniera de Sistemas, me dedico a construir y optimizar herramientas tecnológicas que aportan valor real. Mi enfoque principal es el desarrollo web y la refactorización de plataformas legacy, asegurando que los sistemas sean rápidos, seguros y adaptados a los estándares actuales.</p>
+            <p>Lo que me diferencia es mi visión integral: no solo entiendo el código del lado del servidor y del cliente, sino que también comprendo la infraestructura de red subyacente gracias a mis conocimientos en redes. Esta combinación me permite diseñar soluciones más robustas y eficientes desde la base hasta la interfaz final.</p>
+        </div>
+    </section>
+
+    <section id="habilidades" class="section">
+        <div class="container">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="ph ph-database"></i>
+                    <h3>Backend & BD</h3>
+                    <ul>
+                        <li>PHP (Enfoque en PHP 8)</li>
+                        <li>MySQL / SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <i class="ph ph-browsers"></i>
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript & jQuery</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <i class="ph ph-hard-drives"></i>
+                    <h3>Infraestructura</h3>
+                    <ul>
+                        <li>Enrutamiento (Cisco)</li>
+                        <li>Diseño de redes GPON</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <i class="ph ph-wrench"></i>
+                    <h3>Herramientas</h3>
+                    <ul>
+                        <li>VS Code & XAMPP</li>
+                        <li>Web Scraping</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <i class="ph ph-cpu"></i>
+                    <h3>Mantenimiento</h3>
+                    <ul>
+                        <li>Hardware (Ensamblaje)</li>
+                        <li>Software</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3 class="project-title">Tasa Mobile</h3>
+                    <p><strong>El Reto:</strong> Obtener tasas de cambio monetario (USD/EUR/VES) actualizadas en tiempo real sin intervención manual.</p>
+                    <p><strong>La Solución:</strong> Desarrollo de un script de web scraping automatizado que extrae datos, los procesa y los almacena en una base de datos centralizada.</p>
+                    <div class="tech-tags">
+                        <span>PHP</span> <span>MySQL</span> <span>Web Scraping</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-secondary btn-sm"><i class="ph ph-github-logo"></i> Ver Código</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">Modernización SICE / SICA</h3>
+                    <p><strong>El Reto:</strong> Actualizar plataformas educativas legacy (PHP 5) con problemas de rendimiento y seguridad.</p>
+                    <p><strong>La Solución:</strong> Migración y refactorización completa a PHP 8, optimización de consultas SQL y modernización de interfaz con HTML limpio y jQuery.</p>
+                    <div class="tech-tags">
+                        <span>PHP 8</span> <span>jQuery</span> <span>HTML/CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-secondary btn-sm"><i class="ph ph-lock-key"></i> Proyecto Privado</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <div class="container text-center">
+            <h2 class="section-title">¿Listo para optimizar tu próximo proyecto?</h2>
+            <p>Siempre estoy abierta a discutir nuevos retos tecnológicos, oportunidades laborales o colaborar en desarrollos innovadores.</p>
+            <div class="contact-links">
+    <a href="mailto:keidysmanzanillaf@gmail.com" class="btn btn-primary">
+        <i class="ph ph-envelope-simple"></i> Enviar Mensaje
+    </a>
+    <!-- Nuevo botón de WhatsApp -->
+    <a href="https://wa.me/584243505156?text=Hola%20Keidys,%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20hablar%20contigo%20sobre%20un%20proyecto." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" aria-label="Contactar por WhatsApp">
+        <i class="ph ph-whatsapp-logo"></i> WhatsApp
+    </a>
+    <a href="https://linkedin.com/in/tu-perfil" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="Perfil de LinkedIn">
+        <i class="ph ph-linkedin-logo"></i> LinkedIn
+    </a>
+    <a href="https://github.com/keidysmmf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="Perfil de GitHub">
+        <i class="ph ph-github-logo"></i> GitHub
+    </a>
+</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Keidys Manzanilla. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
